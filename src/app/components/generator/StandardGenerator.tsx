@@ -115,7 +115,6 @@ const replacePlaceholders = (
 function StandardGenerator() {
 	const [goal, setGoal] = useState<StandardGoal | null>(null);
 	const [loading, setLoading] = useState<boolean>(false);
-	const [error, setError] = useState<string | null>(null);
 	const [showDetailedInfo, setShowDetailedInfo] = useState<boolean>(false);
 	const [subgoals, setSubgoals] = useState<
 		Array<{
@@ -161,7 +160,12 @@ function StandardGenerator() {
 				const updatedSubgoals = goalData.subgoals.map(
 					(subgoal: {
 						description: string | null;
-						quantify: any;
+						quantify: {
+							min: number | null;
+							max: number | null;
+							step: number | null;
+							unit: string | null;
+						} | null;
 					}) => ({
 						description: replacePlaceholders(
 							subgoal.description,
@@ -175,7 +179,12 @@ function StandardGenerator() {
 				const updatedCriteria = goalData.criteria.map(
 					(criterion: {
 						description: string | null;
-						quantify: any;
+						quantify: {
+							min: number | null;
+							max: number | null;
+							step: number | null;
+							unit: string | null;
+						} | null;
 					}) => ({
 						description: replacePlaceholders(
 							criterion.description,
@@ -196,7 +205,6 @@ function StandardGenerator() {
 
 	const handleFetchGoal = async () => {
 		setLoading(true);
-		setError(null);
 
 		try {
 			const newGoal = await getRandomStandardGoal();
@@ -206,7 +214,12 @@ function StandardGenerator() {
 
 			// Process subgoals
 			const updatedSubgoals = newGoal.subgoals.map(
-				(subgoal: { description: string | null; quantify: any }) => ({
+				(subgoal: { description: string | null; quantify: {
+					min: number | null;
+					max: number | null;
+					step: number | null;
+					unit: string | null;
+				} | null; }) => ({
 					description: replacePlaceholders(
 						subgoal.description,
 						subgoal.quantify
@@ -217,7 +230,12 @@ function StandardGenerator() {
 
 			// Process criteria
 			const updatedCriteria = newGoal.criteria.map(
-				(criterion: { description: string | null; quantify: any }) => ({
+				(criterion: { description: string | null; quantify: {
+					min: number | null;
+					max: number | null;
+					step: number | null;
+					unit: string | null;
+				} | null; }) => ({
 					description: replacePlaceholders(
 						criterion.description,
 						criterion.quantify
@@ -235,7 +253,6 @@ function StandardGenerator() {
 				error instanceof Error
 					? error.message
 					: "An unexpected error occurred";
-			setError(errorMessage);
 			toast.error(errorMessage, {
 				id: "fetchStandardGoalError",
 			});
@@ -664,7 +681,7 @@ function StandardGenerator() {
 		}
 
 		try {
-			const response = await axios.post(
+			await axios.post(
 				"/api/sendEmail",
 				{
 					email,

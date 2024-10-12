@@ -4,18 +4,10 @@ import {
 	CardBody,
 	CardFooter,
 	CardHeader,
-	Chip,
 	Divider,
-	Popover,
-	PopoverContent,
-	PopoverTrigger,
-	Progress,
-	Tooltip,
 } from "@nextui-org/react";
-import React, { useEffect, useState } from "react";
-import { TextEffectOne } from "react-text-animate";
+import React from "react";
 import confetti from "canvas-confetti";
-import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 
 function IntelligentGenerator() {

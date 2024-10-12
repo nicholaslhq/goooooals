@@ -39,7 +39,6 @@ const displayValue = (value: string | number | boolean | undefined | null) => {
 function ExternalGenerator() {
 	const [goal, setGoal] = useState<ExternalGoal | null>(null);
 	const [loading, setLoading] = useState<boolean>(false);
-	const [error, setError] = useState<string | null>(null);
 	const [showDetailedInfo, setShowDetailedInfo] = useState<boolean>(false);
 	const [email, setEmail] = useState("");
 	const [emailSending, setEmailSending] = useState<boolean>(false);
@@ -61,7 +60,6 @@ function ExternalGenerator() {
 
 	const handleFetchGoal = async () => {
 		setLoading(true);
-		setError(null);
 
 		try {
 			const newGoal = await getRandomExternalGoal();
@@ -71,12 +69,9 @@ function ExternalGenerator() {
 			setShowDetailedInfo(false);
 		} catch (error: unknown) {
 			if (error instanceof Error) {
-				setError(error.message);
 				toast.error("Something went wrong", {
 					id: "fetchExternalGoalError",
 				});
-			} else {
-				setError("An unexpected error occurred");
 			}
 		} finally {
 			setLoading(false);
@@ -106,7 +101,7 @@ function ExternalGenerator() {
 		}
 
 		try {
-			const response = await axios.post(
+			await axios.post(
 				"/api/sendEmail",
 				{
 					email,
