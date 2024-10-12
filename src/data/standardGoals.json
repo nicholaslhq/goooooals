@@ -1,0 +1,2854 @@
+[
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q8z",
+		"goal": "Improve physical fitness",
+		"category": "Health & Fitness",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 1,
+		"motivation": "To enhance overall health and increase energy levels",
+		"tags": ["fitness", "exercise", "wellness"],
+		"subgoals": [
+			{
+				"description": "Complete a {value} {unit} workout session",
+				"quantify": {
+					"min": 15,
+					"max": 60,
+					"step": 5,
+					"unit": "minutes"
+				}
+			},
+			{
+				"description": "Do {value} {unit} of strength training",
+				"quantify": {
+					"min": 20,
+					"max": 120,
+					"step": 10,
+					"unit": "minutes"
+				}
+			},
+			{
+				"description": "Run a {value} {unit} distance",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "kilometers"
+				}
+			},
+			{
+				"description": "Cycle for {value} {unit}",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "kilometers"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully complete {value} {unit} each week",
+				"quantify": {
+					"min": 3,
+					"max": 7,
+					"step": 1,
+					"unit": "sessions"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9a",
+		"goal": "Learn a new language",
+		"category": "Personal Development",
+		"difficulty": 3,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To open up new cultural and career opportunities",
+		"tags": ["language", "learning", "skills"],
+		"subgoals": [
+			{
+				"description": "Complete {value} lessons on a language app",
+				"quantify": {
+					"min": 1,
+					"max": 7,
+					"step": 1,
+					"unit": "lessons"
+				}
+			},
+			{
+				"description": "Practice speaking with a native speaker for {value} {unit}",
+				"quantify": {
+					"min": 15,
+					"max": 60,
+					"step": 5,
+					"unit": "minutes"
+				}
+			},
+			{
+				"description": "Read {value} {unit} of text in the new language",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "pages"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} {unit} of lessons and practice each week",
+				"quantify": {
+					"min": 3,
+					"max": 7,
+					"step": 1,
+					"unit": "sessions"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9b",
+		"goal": "Develop a daily meditation habit",
+		"category": "Mental Wellness",
+		"difficulty": 1,
+		"duration": 1,
+		"frequency": 1,
+		"motivation": "To reduce stress and improve focus",
+		"tags": ["meditation", "mindfulness", "wellness"],
+		"subgoals": [
+			{
+				"description": "Meditate for {value} {unit} each day",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 5,
+					"unit": "minutes"
+				}
+			},
+			{
+				"description": "Attend {value} meditation classes per week",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "classes"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} {unit} of meditation each week",
+				"quantify": {
+					"min": 5,
+					"max": 7,
+					"step": 1,
+					"unit": "days"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9c",
+		"goal": "Enhance cooking skills",
+		"category": "Hobbies",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To create healthier meals and enjoy cooking",
+		"tags": ["cooking", "skills", "hobbies"],
+		"subgoals": [
+			{
+				"description": "Cook {value} new recipes",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "recipes"
+				}
+			},
+			{
+				"description": "Attend {value} cooking workshops or classes",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "workshops"
+				}
+			},
+			{
+				"description": "Master {value} cooking techniques",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "techniques"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully complete {value} new recipes and techniques each month",
+				"quantify": {
+					"min": 2,
+					"max": 4,
+					"step": 1,
+					"unit": "recipes/techniques"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9d",
+		"goal": "Build a financial emergency fund",
+		"category": "Finance",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To ensure financial security and reduce stress",
+		"tags": ["finance", "savings", "security"],
+		"subgoals": [
+			{
+				"description": "Save {value} dollars each month",
+				"quantify": {
+					"min": 50,
+					"max": 1000,
+					"step": 50,
+					"unit": "dollars"
+				}
+			},
+			{
+				"description": "Set up automatic transfers of {value} dollars to savings account",
+				"quantify": {
+					"min": 50,
+					"max": 500,
+					"step": 50,
+					"unit": "dollars"
+				}
+			},
+			{
+				"description": "Review and adjust budget to increase savings by {value} dollars",
+				"quantify": {
+					"min": 50,
+					"max": 300,
+					"step": 50,
+					"unit": "dollars"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Save a total of {value} dollars within {unit}",
+				"quantify": {
+					"min": 500,
+					"max": 5000,
+					"step": 500,
+					"unit": "months"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9e",
+		"goal": "Read more books",
+		"category": "Personal Development",
+		"difficulty": 1,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To expand knowledge and improve mental stimulation",
+		"tags": ["reading", "education", "growth"],
+		"subgoals": [
+			{
+				"description": "Read {value} books per month",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "books"
+				}
+			},
+			{
+				"description": "Read {value} pages daily",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 10,
+					"unit": "pages"
+				}
+			},
+			{
+				"description": "Join a book club and participate in {value} meetings",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "meetings"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} books and attend book club meetings each month",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "books/meetings"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9f",
+		"goal": "Start a daily journaling habit",
+		"category": "Personal Development",
+		"difficulty": 1,
+		"duration": 1,
+		"frequency": 1,
+		"motivation": "To reflect on daily experiences and improve mental clarity",
+		"tags": ["journaling", "reflection", "writing"],
+		"subgoals": [
+			{
+				"description": "Write {value} {unit} in a journal each day",
+				"quantify": {
+					"min": 50,
+					"max": 500,
+					"step": 50,
+					"unit": "words"
+				}
+			},
+			{
+				"description": "Complete {value} journaling prompts per week",
+				"quantify": {
+					"min": 1,
+					"max": 7,
+					"step": 1,
+					"unit": "prompts"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully complete {value} journaling entries each month",
+				"quantify": {
+					"min": 20,
+					"max": 30,
+					"step": 1,
+					"unit": "entries"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9g",
+		"goal": "Learn to play a musical instrument",
+		"category": "Hobbies",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To gain a new skill and enjoy musical expression",
+		"tags": ["music", "instrument", "learning"],
+		"subgoals": [
+			{
+				"description": "Practice {value} {unit} on the instrument each week",
+				"quantify": {
+					"min": 30,
+					"max": 120,
+					"step": 10,
+					"unit": "minutes"
+				}
+			},
+			{
+				"description": "Complete {value} lessons or tutorials per month",
+				"quantify": {
+					"min": 2,
+					"max": 8,
+					"step": 1,
+					"unit": "lessons"
+				}
+			},
+			{
+				"description": "Perform {value} songs or pieces in front of an audience",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "performances"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully practice for a total of {value} {unit} by the end of the period",
+				"quantify": {
+					"min": 120,
+					"max": 480,
+					"step": 30,
+					"unit": "minutes"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9h",
+		"goal": "Volunteer regularly in the community",
+		"category": "Community Service",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To give back to the community and help those in need",
+		"tags": ["volunteering", "community", "service"],
+		"subgoals": [
+			{
+				"description": "Volunteer for {value} {unit} each week",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "hours"
+				}
+			},
+			{
+				"description": "Participate in {value} community events or drives",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "events"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete a total of {value} {unit} of volunteer work and attend community events",
+				"quantify": {
+					"min": 20,
+					"max": 100,
+					"step": 10,
+					"unit": "hours"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9i",
+		"goal": "Improve time management skills",
+		"category": "Productivity",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 1,
+		"motivation": "To become more efficient and achieve personal and professional goals",
+		"tags": ["productivity", "time management", "efficiency"],
+		"subgoals": [
+			{
+				"description": "Create and follow a daily schedule for {value} weeks",
+				"quantify": {
+					"min": 1,
+					"max": 8,
+					"step": 1,
+					"unit": "weeks"
+				}
+			},
+			{
+				"description": "Implement {value} time management techniques",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "techniques"
+				}
+			},
+			{
+				"description": "Complete {value} productivity tasks per day",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "tasks"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully use time management techniques and complete {value} productivity tasks each week",
+				"quantify": {
+					"min": 10,
+					"max": 50,
+					"step": 5,
+					"unit": "tasks"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9j",
+		"goal": "Adopt a sustainable lifestyle",
+		"category": "Environment",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To reduce environmental impact and promote sustainability",
+		"tags": ["sustainability", "environment", "eco-friendly"],
+		"subgoals": [
+			{
+				"description": "Reduce waste by {value} {unit} each month",
+				"quantify": {
+					"min": 5,
+					"max": 100,
+					"step": 5,
+					"unit": "percent"
+				}
+			},
+			{
+				"description": "Switch to {value} sustainable products",
+				"quantify": {
+					"min": 2,
+					"max": 15,
+					"step": 1,
+					"unit": "products"
+				}
+			},
+			{
+				"description": "Participate in {value} local environmental initiatives",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "initiatives"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} percent waste reduction and adopt sustainable products",
+				"quantify": {
+					"min": 20,
+					"max": 80,
+					"step": 10,
+					"unit": "percent"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9k",
+		"goal": "Improve public speaking skills",
+		"category": "Professional Development",
+		"difficulty": 3,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To enhance communication skills and career prospects",
+		"tags": ["public speaking", "communication", "career"],
+		"subgoals": [
+			{
+				"description": "Prepare and deliver {value} speeches or presentations",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "speeches"
+				}
+			},
+			{
+				"description": "Join and participate in {value} public speaking groups or clubs",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "groups"
+				}
+			},
+			{
+				"description": "Receive feedback from {value} peers or mentors on speeches",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "feedback sessions"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Deliver {value} speeches and actively participate in groups by the end of the period",
+				"quantify": {
+					"min": 5,
+					"max": 20,
+					"step": 1,
+					"unit": "speeches/groups"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9l",
+		"goal": "Enhance digital skills",
+		"category": "Technical Skills",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To stay relevant in the digital age and improve career opportunities",
+		"tags": ["digital skills", "technology", "learning"],
+		"subgoals": [
+			{
+				"description": "Complete {value} online courses or tutorials",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "courses"
+				}
+			},
+			{
+				"description": "Implement {value} new digital tools or software in projects",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "tools"
+				}
+			},
+			{
+				"description": "Practice new skills for {value} {unit} each week",
+				"quantify": {
+					"min": 30,
+					"max": 120,
+					"step": 10,
+					"unit": "minutes"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} courses and use new tools within {unit}",
+				"quantify": {
+					"min": 3,
+					"max": 15,
+					"step": 1,
+					"unit": "months"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9m",
+		"goal": "Improve financial literacy",
+		"category": "Finance",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To make informed financial decisions and plan effectively",
+		"tags": ["finance", "education", "budgeting"],
+		"subgoals": [
+			{
+				"description": "Read {value} finance-related books or articles",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "books/articles"
+				}
+			},
+			{
+				"description": "Complete {value} financial literacy courses or webinars",
+				"quantify": {
+					"min": 1,
+					"max": 6,
+					"step": 1,
+					"unit": "courses"
+				}
+			},
+			{
+				"description": "Create and follow a personal budget for {value} {unit}",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "months"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully read {value} finance resources and complete courses",
+				"quantify": {
+					"min": 4,
+					"max": 15,
+					"step": 1,
+					"unit": "resources/courses"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9n",
+		"goal": "Build a personal brand online",
+		"category": "Career",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To enhance career opportunities and establish expertise",
+		"tags": ["personal brand", "online presence", "career growth"],
+		"subgoals": [
+			{
+				"description": "Create and update {value} online profiles or portfolios",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "profiles"
+				}
+			},
+			{
+				"description": "Post {value} professional articles or updates each month",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "articles/updates"
+				}
+			},
+			{
+				"description": "Engage with {value} industry-related groups or forums",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "groups/forums"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Build {value} profiles and actively engage in groups or forums",
+				"quantify": {
+					"min": 3,
+					"max": 10,
+					"step": 1,
+					"unit": "profiles/groups"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9o",
+		"goal": "Master a new cooking technique",
+		"category": "Hobbies",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To enhance culinary skills and creativity in the kitchen",
+		"tags": ["cooking", "techniques", "culinary"],
+		"subgoals": [
+			{
+				"description": "Practice {value} different cooking techniques",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "techniques"
+				}
+			},
+			{
+				"description": "Prepare {value} meals using the new techniques",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 5,
+					"unit": "meals"
+				}
+			},
+			{
+				"description": "Attend {value} cooking classes focusing on the new techniques",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "classes"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully practice {value} techniques and prepare meals using those techniques",
+				"quantify": {
+					"min": 5,
+					"max": 20,
+					"step": 1,
+					"unit": "meals/techniques"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9p",
+		"goal": "Create a personal website",
+		"category": "Career",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To showcase personal projects and enhance professional visibility",
+		"tags": ["website", "portfolio", "career"],
+		"subgoals": [
+			{
+				"description": "Design and develop {value} pages for the website",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "pages"
+				}
+			},
+			{
+				"description": "Write {value} pieces of content or blog posts for the website",
+				"quantify": {
+					"min": 2,
+					"max": 20,
+					"step": 1,
+					"unit": "posts"
+				}
+			},
+			{
+				"description": "Optimize the website for {value} SEO best practices",
+				"quantify": {
+					"min": 5,
+					"max": 25,
+					"step": 5,
+					"unit": "practices"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} pages or blog posts, and implement SEO practices",
+				"quantify": {
+					"min": 5,
+					"max": 15,
+					"step": 1,
+					"unit": "tasks"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9q",
+		"goal": "Develop a healthy sleep routine",
+		"category": "Health & Wellness",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 1,
+		"motivation": "To improve overall health and daily performance",
+		"tags": ["sleep", "health", "routine"],
+		"subgoals": [
+			{
+				"description": "Establish a consistent bedtime routine {value} {unit} each week",
+				"quantify": {
+					"min": 5,
+					"max": 7,
+					"step": 1,
+					"unit": "days"
+				}
+			},
+			{
+				"description": "Track sleep patterns using a {value} app or device",
+				"quantify": {
+					"min": 1,
+					"max": 1,
+					"step": 1,
+					"unit": "app/device"
+				}
+			},
+			{
+				"description": "Reduce screen time {value} {unit} before bed",
+				"quantify": {
+					"min": 15,
+					"max": 120,
+					"step": 15,
+					"unit": "minutes"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Adopt a bedtime routine and reduce screen time before bed",
+				"quantify": {
+					"min": 5,
+					"max": 7,
+					"step": 1,
+					"unit": "days"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9r",
+		"goal": "Expand professional network",
+		"category": "Career",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To create new opportunities and gain insights from industry peers",
+		"tags": ["networking", "career", "professional"],
+		"subgoals": [
+			{
+				"description": "Attend {value} networking events or conferences",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "events"
+				}
+			},
+			{
+				"description": "Connect with {value} new professionals on LinkedIn or similar platforms",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "connections"
+				}
+			},
+			{
+				"description": "Schedule {value} informational interviews with industry experts",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "interviews"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Build a network of {value} professionals and attend events",
+				"quantify": {
+					"min": 10,
+					"max": 50,
+					"step": 5,
+					"unit": "connections/events"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9s",
+		"goal": "Complete a creative project",
+		"category": "Personal Development",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To express creativity and develop new skills",
+		"tags": ["creativity", "projects", "skills"],
+		"subgoals": [
+			{
+				"description": "Plan and outline {value} creative project ideas",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "ideas"
+				}
+			},
+			{
+				"description": "Execute and complete {value} project milestones",
+				"quantify": {
+					"min": 3,
+					"max": 15,
+					"step": 1,
+					"unit": "milestones"
+				}
+			},
+			{
+				"description": "Share {value} updates or drafts with a critique group",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "updates"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Finish {value} milestones and share updates",
+				"quantify": {
+					"min": 5,
+					"max": 20,
+					"step": 1,
+					"unit": "milestones/updates"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9t",
+		"goal": "Adopt a minimalist lifestyle",
+		"category": "Lifestyle",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To simplify life and reduce stress through decluttering",
+		"tags": ["minimalism", "decluttering", "lifestyle"],
+		"subgoals": [
+			{
+				"description": "Declutter and donate {value} items from home",
+				"quantify": {
+					"min": 50,
+					"max": 500,
+					"step": 50,
+					"unit": "items"
+				}
+			},
+			{
+				"description": "Adopt {value} new minimalist habits or practices",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "habits"
+				}
+			},
+			{
+				"description": "Review and minimize {value} categories of personal belongings",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "categories"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete decluttering and adopt new minimalist habits",
+				"quantify": {
+					"min": 100,
+					"max": 500,
+					"step": 50,
+					"unit": "items/habits"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9u",
+		"goal": "Improve physical strength",
+		"category": "Health & Fitness",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 2,
+		"motivation": "To increase overall strength and support physical fitness goals",
+		"tags": ["strength", "fitness", "health"],
+		"subgoals": [
+			{
+				"description": "Perform {value} strength training sessions per week",
+				"quantify": {
+					"min": 2,
+					"max": 6,
+					"step": 1,
+					"unit": "sessions"
+				}
+			},
+			{
+				"description": "Increase weight or resistance by {value} percent each month",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "percent"
+				}
+			},
+			{
+				"description": "Complete {value} sets of strength exercises in each session",
+				"quantify": {
+					"min": 3,
+					"max": 10,
+					"step": 1,
+					"unit": "sets"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} training sessions and increase resistance",
+				"quantify": {
+					"min": 10,
+					"max": 30,
+					"step": 1,
+					"unit": "sessions/percent"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q92",
+		"goal": "Learn a new language",
+		"category": "Education",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 3,
+		"motivation": "To enhance communication skills and cultural understanding",
+		"tags": ["language", "education", "learning"],
+		"subgoals": [
+			{
+				"description": "Complete {value} language lessons or modules",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 5,
+					"unit": "lessons"
+				}
+			},
+			{
+				"description": "Practice speaking with {value} language partners or tutors",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 1,
+					"unit": "sessions"
+				}
+			},
+			{
+				"description": "Read {value} books or articles in the target language",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "books/articles"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve a conversational level by completing {value} lessons",
+				"quantify": {
+					"min": 20,
+					"max": 80,
+					"step": 10,
+					"unit": "lessons"
+				}
+			},
+			{
+				"description": "Practice speaking in {value} sessions",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 1,
+					"unit": "sessions"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q93",
+		"goal": "Start a fitness challenge",
+		"category": "Health & Fitness",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 3,
+		"motivation": "To boost physical fitness and set achievable goals",
+		"tags": ["fitness", "challenge", "health"],
+		"subgoals": [
+			{
+				"description": "Complete {value} workout sessions each week",
+				"quantify": {
+					"min": 3,
+					"max": 7,
+					"step": 1,
+					"unit": "sessions"
+				}
+			},
+			{
+				"description": "Track and improve {value} fitness metrics (e.g., running distance, weight lifted)",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "metrics"
+				}
+			},
+			{
+				"description": "Join {value} fitness community groups for support",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "groups"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve progress in {value} fitness metrics",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "metrics"
+				}
+			},
+			{
+				"description": "Complete {value} sessions over the challenge period",
+				"quantify": {
+					"min": 12,
+					"max": 24,
+					"step": 2,
+					"unit": "sessions"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q94",
+		"goal": "Develop a daily mindfulness practice",
+		"category": "Health & Wellness",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 1,
+		"motivation": "To enhance mental well-being and reduce stress",
+		"tags": ["mindfulness", "wellness", "meditation"],
+		"subgoals": [
+			{
+				"description": "Meditate for {value} minutes daily",
+				"quantify": {
+					"min": 5,
+					"max": 60,
+					"step": 5,
+					"unit": "minutes"
+				}
+			},
+			{
+				"description": "Practice {value} mindfulness exercises each week",
+				"quantify": {
+					"min": 1,
+					"max": 7,
+					"step": 1,
+					"unit": "exercises"
+				}
+			},
+			{
+				"description": "Read {value} books or articles on mindfulness",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "books/articles"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Maintain daily meditation for {value} days",
+				"quantify": {
+					"min": 30,
+					"max": 60,
+					"step": 5,
+					"unit": "days"
+				}
+			},
+			{
+				"description": "Complete {value} mindfulness exercises",
+				"quantify": {
+					"min": 10,
+					"max": 30,
+					"step": 5,
+					"unit": "exercises"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q95",
+		"goal": "Create a sustainable wardrobe",
+		"category": "Lifestyle",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To promote sustainable fashion and reduce waste",
+		"tags": ["sustainability", "fashion", "wardrobe"],
+		"subgoals": [
+			{
+				"description": "Donate or sell {value} items from your wardrobe",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 10,
+					"unit": "items"
+				}
+			},
+			{
+				"description": "Purchase {value} sustainable clothing items",
+				"quantify": {
+					"min": 2,
+					"max": 15,
+					"step": 1,
+					"unit": "items"
+				}
+			},
+			{
+				"description": "Learn about {value} sustainable fashion brands",
+				"quantify": {
+					"min": 3,
+					"max": 10,
+					"step": 1,
+					"unit": "brands"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Reduce your wardrobe by {value} items",
+				"quantify": {
+					"min": 20,
+					"max": 100,
+					"step": 10,
+					"unit": "items"
+				}
+			},
+			{
+				"description": "Add {value} sustainable pieces to your wardrobe",
+				"quantify": {
+					"min": 5,
+					"max": 20,
+					"step": 1,
+					"unit": "items"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q96",
+		"goal": "Learn photography",
+		"category": "Creative",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To express creativity and capture moments through photography",
+		"tags": ["photography", "art", "skills"],
+		"subgoals": [
+			{
+				"description": "Complete {value} photography tutorials or courses",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "courses"
+				}
+			},
+			{
+				"description": "Practice taking {value} photos each week",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "photos"
+				}
+			},
+			{
+				"description": "Participate in {value} photography challenges or contests",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "challenges"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} courses and share your work for feedback",
+				"quantify": {
+					"min": 3,
+					"max": 15,
+					"step": 1,
+					"unit": "photos/courses"
+				}
+			},
+			{
+				"description": "Receive feedback from {value} peers or mentors",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "feedback sessions"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q97",
+		"goal": "Write a book",
+		"category": "Creative",
+		"difficulty": 3,
+		"duration": 12,
+		"frequency": 1,
+		"motivation": "To share stories and knowledge with others",
+		"tags": ["writing", "creativity", "books"],
+		"subgoals": [
+			{
+				"description": "Outline and plan {value} chapters or sections",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 1,
+					"unit": "chapters"
+				}
+			},
+			{
+				"description": "Write {value} words each week",
+				"quantify": {
+					"min": 500,
+					"max": 5000,
+					"step": 500,
+					"unit": "words"
+				}
+			},
+			{
+				"description": "Edit and revise {value} drafts or chapters",
+				"quantify": {
+					"min": 2,
+					"max": 10,
+					"step": 1,
+					"unit": "drafts"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete the manuscript of {value} words",
+				"quantify": {
+					"min": 20000,
+					"max": 100000,
+					"step": 5000,
+					"unit": "words"
+				}
+			},
+			{
+				"description": "Finish editing {value} chapters",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 1,
+					"unit": "chapters"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q98",
+		"goal": "Start a blog or vlog",
+		"category": "Creative",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To share insights, experiences, or expertise with a wider audience",
+		"tags": ["blogging", "vlogging", "content creation"],
+		"subgoals": [
+			{
+				"description": "Create and publish {value} posts or videos per month",
+				"quantify": {
+					"min": 2,
+					"max": 20,
+					"step": 1,
+					"unit": "posts/videos"
+				}
+			},
+			{
+				"description": "Engage with {value} followers or readers on social media",
+				"quantify": {
+					"min": 50,
+					"max": 5000,
+					"step": 50,
+					"unit": "followers"
+				}
+			},
+			{
+				"description": "Participate in {value} blogging or vlogging communities",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "communities"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} followers or subscribers",
+				"quantify": {
+					"min": 100,
+					"max": 5000,
+					"step": 100,
+					"unit": "followers"
+				}
+			},
+			{
+				"description": "Publish {value} content pieces",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 5,
+					"unit": "posts/videos"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q99",
+		"goal": "Cultivate a garden",
+		"category": "Lifestyle",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To enjoy nature and grow your own food or flowers",
+		"tags": ["gardening", "nature", "sustainability"],
+		"subgoals": [
+			{
+				"description": "Plan and create {value} garden beds or containers",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "beds/containers"
+				}
+			},
+			{
+				"description": "Grow {value} different types of plants or vegetables",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "types"
+				}
+			},
+			{
+				"description": "Learn about {value} gardening techniques or practices",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "techniques"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Successfully grow {value} plants to maturity",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "plants"
+				}
+			},
+			{
+				"description": "Complete {value} gardening projects",
+				"quantify": {
+					"min": 3,
+					"max": 15,
+					"step": 1,
+					"unit": "projects"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9a",
+		"goal": "Travel to a new destination",
+		"category": "Adventure",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To explore new cultures and gain unique experiences",
+		"tags": ["travel", "adventure", "exploration"],
+		"subgoals": [
+			{
+				"description": "Research and select {value} destinations",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "destinations"
+				}
+			},
+			{
+				"description": "Plan {value} activities or excursions at the destination",
+				"quantify": {
+					"min": 2,
+					"max": 20,
+					"step": 1,
+					"unit": "activities"
+				}
+			},
+			{
+				"description": "Create a budget for {value} travel expenses",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "budgets"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Visit {value} new destinations",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "destinations"
+				}
+			},
+			{
+				"description": "Complete {value} planned activities",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "activities"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9b",
+		"goal": "Enhance cooking skills",
+		"category": "Culinary",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To enjoy cooking and prepare healthier meals",
+		"tags": ["cooking", "culinary", "skills"],
+		"subgoals": [
+			{
+				"description": "Try {value} new recipes each month",
+				"quantify": {
+					"min": 1,
+					"max": 15,
+					"step": 1,
+					"unit": "recipes"
+				}
+			},
+			{
+				"description": "Attend {value} cooking classes or workshops",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "classes"
+				}
+			},
+			{
+				"description": "Share {value} meals with friends or family",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "meals"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Master {value} cooking techniques",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "techniques"
+				}
+			},
+			{
+				"description": "Successfully cook {value} new dishes",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 1,
+					"unit": "dishes"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9c",
+		"goal": "Learn a new language",
+		"category": "Education",
+		"difficulty": 3,
+		"duration": 12,
+		"frequency": 3,
+		"motivation": "To enhance communication skills and explore new cultures",
+		"tags": ["language", "learning", "culture"],
+		"subgoals": [
+			{
+				"description": "Complete {value} lessons or chapters in a language course",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 5,
+					"unit": "lessons"
+				}
+			},
+			{
+				"description": "Practice speaking with {value} native speakers",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "speakers"
+				}
+			},
+			{
+				"description": "Read {value} books or articles in the target language",
+				"quantify": {
+					"min": 1,
+					"max": 15,
+					"step": 1,
+					"unit": "books/articles"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} conversational hours with a native speaker",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "hours"
+				}
+			},
+			{
+				"description": "Pass a language proficiency test at {value} level",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "level"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9d",
+		"goal": "Develop public speaking skills",
+		"category": "Personal Development",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To boost confidence and improve communication abilities",
+		"tags": ["public speaking", "communication", "confidence"],
+		"subgoals": [
+			{
+				"description": "Attend {value} public speaking workshops or seminars",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "workshops"
+				}
+			},
+			{
+				"description": "Deliver {value} speeches or presentations",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "speeches"
+				}
+			},
+			{
+				"description": "Practice speaking in front of {value} different audiences",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "audiences"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Receive feedback from {value} audience members",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "feedbacks"
+				}
+			},
+			{
+				"description": "Achieve a {value} rating or higher on speech evaluations",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "rating"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9e",
+		"goal": "Create a personal finance plan",
+		"category": "Finance",
+		"difficulty": 2,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To manage finances effectively and save for future goals",
+		"tags": ["finance", "budgeting", "savings"],
+		"subgoals": [
+			{
+				"description": "Track expenses for {value} months",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "months"
+				}
+			},
+			{
+				"description": "Set {value} financial goals (short-term and long-term)",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "goals"
+				}
+			},
+			{
+				"description": "Create and stick to a budget for {value} months",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "months"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Save {value} percent of income each month",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "percent"
+				}
+			},
+			{
+				"description": "Achieve {value} financial goals",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "goals"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9f",
+		"goal": "Volunteer regularly",
+		"category": "Community",
+		"difficulty": 2,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To give back to the community and help those in need",
+		"tags": ["volunteering", "community service", "giving back"],
+		"subgoals": [
+			{
+				"description": "Volunteer at {value} different organizations",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "organizations"
+				}
+			},
+			{
+				"description": "Participate in {value} community events or initiatives",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "events"
+				}
+			},
+			{
+				"description": "Donate {value} hours of service each month",
+				"quantify": {
+					"min": 1,
+					"max": 40,
+					"step": 1,
+					"unit": "hours"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete {value} volunteer projects",
+				"quantify": {
+					"min": 1,
+					"max": 30,
+					"step": 1,
+					"unit": "projects"
+				}
+			},
+			{
+				"description": "Reach {value} total volunteer hours",
+				"quantify": {
+					"min": 10,
+					"max": 200,
+					"step": 10,
+					"unit": "hours"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9g",
+		"goal": "Start a fitness challenge",
+		"category": "Health & Fitness",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 3,
+		"motivation": "To improve physical fitness and maintain a healthy lifestyle",
+		"tags": ["fitness", "challenge", "health"],
+		"subgoals": [
+			{
+				"description": "Set {value} specific fitness goals (e.g., weight loss, muscle gain)",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "goals"
+				}
+			},
+			{
+				"description": "Complete {value} workouts each week",
+				"quantify": {
+					"min": 3,
+					"max": 6,
+					"step": 1,
+					"unit": "workouts"
+				}
+			},
+			{
+				"description": "Track progress for {value} months",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "months"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} fitness milestones (e.g., running distance, lifting weight)",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "milestones"
+				}
+			},
+			{
+				"description": "Maintain a consistent workout schedule for {value} weeks",
+				"quantify": {
+					"min": 4,
+					"max": 24,
+					"step": 1,
+					"unit": "weeks"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9h",
+		"goal": "Create a blog or vlog",
+		"category": "Creative Expression",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To share knowledge and connect with a wider audience",
+		"tags": ["blogging", "vlogging", "content creation"],
+		"subgoals": [
+			{
+				"description": "Publish {value} blog posts or vlog episodes",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "posts/episodes"
+				}
+			},
+			{
+				"description": "Engage with {value} followers or readers",
+				"quantify": {
+					"min": 10,
+					"max": 500,
+					"step": 10,
+					"unit": "followers"
+				}
+			},
+			{
+				"description": "Collaborate with {value} other creators",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "creators"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Reach {value} views or visits on blog/vlog",
+				"quantify": {
+					"min": 100,
+					"max": 10000,
+					"step": 100,
+					"unit": "views"
+				}
+			},
+			{
+				"description": "Gain {value} new subscribers or followers",
+				"quantify": {
+					"min": 10,
+					"max": 1000,
+					"step": 10,
+					"unit": "subscribers"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9i",
+		"goal": "Improve culinary skills",
+		"category": "Personal Development",
+		"difficulty": 2,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To create delicious meals and enhance cooking techniques",
+		"tags": ["cooking", "culinary", "skills"],
+		"subgoals": [
+			{
+				"description": "Try {value} new recipes each month",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "recipes"
+				}
+			},
+			{
+				"description": "Attend {value} cooking classes or workshops",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "classes"
+				}
+			},
+			{
+				"description": "Host {value} dinner parties for friends or family",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "dinners"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Receive {value} positive feedback from guests",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "feedbacks"
+				}
+			},
+			{
+				"description": "Master {value} new cooking techniques or skills",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "skills"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9j",
+		"goal": "Start a side business",
+		"category": "Entrepreneurship",
+		"difficulty": 3,
+		"duration": 12,
+		"frequency": 1,
+		"motivation": "To pursue a passion and create additional income streams",
+		"tags": ["business", "entrepreneurship", "side hustle"],
+		"subgoals": [
+			{
+				"description": "Conduct market research on {value} potential business ideas",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "ideas"
+				}
+			},
+			{
+				"description": "Create a business plan for {value} selected idea",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "plans"
+				}
+			},
+			{
+				"description": "Launch the business and achieve {value} customers or sales",
+				"quantify": {
+					"min": 1,
+					"max": 100,
+					"step": 1,
+					"unit": "customers/sales"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Generate {value} revenue within the first year",
+				"quantify": {
+					"min": 100,
+					"max": 10000,
+					"step": 100,
+					"unit": "dollars"
+				}
+			},
+			{
+				"description": "Reach {value} social media followers or subscribers for the business",
+				"quantify": {
+					"min": 10,
+					"max": 1000,
+					"step": 10,
+					"unit": "followers"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9k",
+		"goal": "Cultivate a sustainable garden",
+		"category": "Lifestyle",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To promote sustainability and enjoy fresh produce",
+		"tags": ["gardening", "sustainability", "food"],
+		"subgoals": [
+			{
+				"description": "Plan and design a garden layout for {value} types of plants",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "types"
+				}
+			},
+			{
+				"description": "Plant {value} seedlings or seeds",
+				"quantify": {
+					"min": 5,
+					"max": 100,
+					"step": 5,
+					"unit": "seedlings/seeds"
+				}
+			},
+			{
+				"description": "Maintain the garden by watering and weeding {value} times per week",
+				"quantify": {
+					"min": 1,
+					"max": 7,
+					"step": 1,
+					"unit": "times"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Harvest {value} pounds of produce from the garden",
+				"quantify": {
+					"min": 1,
+					"max": 100,
+					"step": 1,
+					"unit": "pounds"
+				}
+			},
+			{
+				"description": "Establish {value} sustainable gardening practices",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "practices"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9l",
+		"goal": "Enhance digital skills",
+		"category": "Career Development",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To stay competitive in the job market and improve employability",
+		"tags": ["digital skills", "technology", "career"],
+		"subgoals": [
+			{
+				"description": "Complete {value} online courses or certifications",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "courses"
+				}
+			},
+			{
+				"description": "Practice new skills by working on {value} projects",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "projects"
+				}
+			},
+			{
+				"description": "Attend {value} webinars or workshops related to digital skills",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "webinars"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Demonstrate proficiency in {value} new software or tools",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "tools"
+				}
+			},
+			{
+				"description": "Achieve {value} endorsements or recommendations on professional platforms",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "endorsements"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9m",
+		"goal": "Learn a new language",
+		"category": "Personal Development",
+		"difficulty": 3,
+		"duration": 12,
+		"frequency": 3,
+		"motivation": "To enhance communication skills and cultural understanding",
+		"tags": ["language", "learning", "culture"],
+		"subgoals": [
+			{
+				"description": "Complete {value} language lessons or modules",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 5,
+					"unit": "lessons"
+				}
+			},
+			{
+				"description": "Practice speaking with {value} language partners",
+				"quantify": {
+					"min": 2,
+					"max": 20,
+					"step": 1,
+					"unit": "partners"
+				}
+			},
+			{
+				"description": "Read {value} books or articles in the target language",
+				"quantify": {
+					"min": 1,
+					"max": 15,
+					"step": 1,
+					"unit": "books/articles"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} level of proficiency (A1-C2 scale)",
+				"quantify": {
+					"min": 1,
+					"max": 6,
+					"step": 1,
+					"unit": "level"
+				}
+			},
+			{
+				"description": "Hold a conversation for {value} minutes in the target language",
+				"quantify": {
+					"min": 5,
+					"max": 60,
+					"step": 5,
+					"unit": "minutes"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9n",
+		"goal": "Develop public speaking skills",
+		"category": "Personal Development",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To build confidence and improve communication abilities",
+		"tags": ["public speaking", "communication", "skills"],
+		"subgoals": [
+			{
+				"description": "Join a local speaking club or group {value} times",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "times"
+				}
+			},
+			{
+				"description": "Deliver {value} presentations or speeches",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "presentations"
+				}
+			},
+			{
+				"description": "Receive feedback from {value} audience members",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "feedbacks"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} positive evaluations on speaking performance",
+				"quantify": {
+					"min": 5,
+					"max": 30,
+					"step": 5,
+					"unit": "evaluations"
+				}
+			},
+			{
+				"description": "Complete {value} hours of speaking practice",
+				"quantify": {
+					"min": 5,
+					"max": 100,
+					"step": 5,
+					"unit": "hours"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9o",
+		"goal": "Establish a morning routine",
+		"category": "Lifestyle",
+		"difficulty": 2,
+		"duration": 3,
+		"frequency": 3,
+		"motivation": "To improve productivity and well-being",
+		"tags": ["routine", "lifestyle", "productivity"],
+		"subgoals": [
+			{
+				"description": "Identify {value} activities to include in the routine",
+				"quantify": {
+					"min": 3,
+					"max": 10,
+					"step": 1,
+					"unit": "activities"
+				}
+			},
+			{
+				"description": "Implement the routine {value} days per week",
+				"quantify": {
+					"min": 3,
+					"max": 7,
+					"step": 1,
+					"unit": "days"
+				}
+			},
+			{
+				"description": "Track progress and adjustments for {value} weeks",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "weeks"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Feel increased productivity on {value} days per week",
+				"quantify": {
+					"min": 3,
+					"max": 7,
+					"step": 1,
+					"unit": "days"
+				}
+			},
+			{
+				"description": "Sustain the routine for {value} consecutive weeks",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "weeks"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9p",
+		"goal": "Participate in a community service project",
+		"category": "Community Engagement",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To give back to the community and meet new people",
+		"tags": ["volunteering", "community", "service"],
+		"subgoals": [
+			{
+				"description": "Identify {value} local organizations or causes",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "organizations"
+				}
+			},
+			{
+				"description": "Volunteer for {value} hours in the community",
+				"quantify": {
+					"min": 5,
+					"max": 100,
+					"step": 5,
+					"unit": "hours"
+				}
+			},
+			{
+				"description": "Attend {value} community meetings or events",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "meetings/events"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Make a positive impact in the community for {value} individuals or families",
+				"quantify": {
+					"min": 1,
+					"max": 50,
+					"step": 1,
+					"unit": "individuals/families"
+				}
+			},
+			{
+				"description": "Establish {value} new connections through volunteering",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "connections"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9q",
+		"goal": "Practice mindfulness or meditation",
+		"category": "Mental Health",
+		"difficulty": 2,
+		"duration": 3,
+		"frequency": 3,
+		"motivation": "To reduce stress and improve mental clarity",
+		"tags": ["mindfulness", "meditation", "mental health"],
+		"subgoals": [
+			{
+				"description": "Attend {value} guided meditation sessions or classes",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "sessions"
+				}
+			},
+			{
+				"description": "Practice mindfulness exercises {value} times per week",
+				"quantify": {
+					"min": 1,
+					"max": 7,
+					"step": 1,
+					"unit": "times"
+				}
+			},
+			{
+				"description": "Journal about mindfulness experiences {value} times",
+				"quantify": {
+					"min": 1,
+					"max": 30,
+					"step": 1,
+					"unit": "entries"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Report improved mood or reduced stress on {value} days per week",
+				"quantify": {
+					"min": 3,
+					"max": 7,
+					"step": 1,
+					"unit": "days"
+				}
+			},
+			{
+				"description": "Sustain the practice for {value} consecutive weeks",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "weeks"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9r",
+		"goal": "Create a personal budget",
+		"category": "Finance",
+		"difficulty": 2,
+		"duration": 2,
+		"frequency": 1,
+		"motivation": "To manage finances better and save for future goals",
+		"tags": ["budgeting", "finance", "saving"],
+		"subgoals": [
+			{
+				"description": "Track monthly expenses for {value} months",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "months"
+				}
+			},
+			{
+				"description": "Identify {value} areas to cut costs",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "areas"
+				}
+			},
+			{
+				"description": "Set savings goals for {value} specific categories",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "categories"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Stick to the budget for {value} consecutive months",
+				"quantify": {
+					"min": 1,
+					"max": 12,
+					"step": 1,
+					"unit": "months"
+				}
+			},
+			{
+				"description": "Achieve {value}% of savings goal by the end of the period",
+				"quantify": {
+					"min": 50,
+					"max": 100,
+					"step": 10,
+					"unit": "percent"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9s",
+		"goal": "Start a blog or vlog",
+		"category": "Creative Expression",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 2,
+		"motivation": "To share knowledge and connect with an audience",
+		"tags": ["blogging", "vlogging", "content creation"],
+		"subgoals": [
+			{
+				"description": "Create and publish {value} blog posts or videos",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "posts/videos"
+				}
+			},
+			{
+				"description": "Engage with {value} audience members through comments or social media",
+				"quantify": {
+					"min": 10,
+					"max": 100,
+					"step": 10,
+					"unit": "engagements"
+				}
+			},
+			{
+				"description": "Research and define {value} topics of interest to cover",
+				"quantify": {
+					"min": 5,
+					"max": 20,
+					"step": 1,
+					"unit": "topics"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Grow audience to {value} followers or subscribers",
+				"quantify": {
+					"min": 100,
+					"max": 5000,
+					"step": 100,
+					"unit": "followers"
+				}
+			},
+			{
+				"description": "Achieve {value} average views or interactions per post or video",
+				"quantify": {
+					"min": 50,
+					"max": 1000,
+					"step": 50,
+					"unit": "views/interactions"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9t",
+		"goal": "Complete a fitness challenge",
+		"category": "Health & Fitness",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To push physical limits and enhance fitness levels",
+		"tags": ["fitness", "challenge", "health"],
+		"subgoals": [
+			{
+				"description": "Choose and register for a specific fitness challenge (e.g., marathon, triathlon)",
+				"quantify": {
+					"min": 1,
+					"max": 3,
+					"step": 1,
+					"unit": "challenges"
+				}
+			},
+			{
+				"description": "Follow a training plan for {value} weeks leading up to the challenge",
+				"quantify": {
+					"min": 6,
+					"max": 12,
+					"step": 1,
+					"unit": "weeks"
+				}
+			},
+			{
+				"description": "Increase workout intensity by {value} percent each week",
+				"quantify": {
+					"min": 5,
+					"max": 20,
+					"step": 5,
+					"unit": "percent"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Complete the challenge within {value} time frame or distance goal",
+				"quantify": {
+					"min": 1,
+					"max": 100,
+					"step": 1,
+					"unit": "units"
+				}
+			},
+			{
+				"description": "Achieve personal best time or score for the challenge",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "records"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9u",
+		"goal": "Take a course or certification",
+		"category": "Education",
+		"difficulty": 3,
+		"duration": 3,
+		"frequency": 1,
+		"motivation": "To enhance qualifications and skills for career advancement",
+		"tags": ["education", "certification", "skills"],
+		"subgoals": [
+			{
+				"description": "Research and select {value} courses or certifications",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "courses"
+				}
+			},
+			{
+				"description": "Complete {value} modules or units of the selected course",
+				"quantify": {
+					"min": 5,
+					"max": 50,
+					"step": 5,
+					"unit": "modules"
+				}
+			},
+			{
+				"description": "Pass the final assessment or exam for {value} courses",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "courses"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Achieve {value} certification or qualification",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "certifications"
+				}
+			},
+			{
+				"description": "Implement skills learned in {value} projects or tasks",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "projects"
+				}
+			}
+		]
+	},
+	{
+		"id": "cjd7e82d6000e1z6z0d6lx0q9v",
+		"goal": "Improve digital literacy",
+		"category": "Education",
+		"difficulty": 2,
+		"duration": 3,
+		"frequency": 3,
+		"motivation": "To enhance skills for the digital age and increase employability",
+		"tags": ["digital literacy", "education", "skills"],
+		"subgoals": [
+			{
+				"description": "Complete {value} online courses or tutorials",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "courses"
+				}
+			},
+			{
+				"description": "Practice using {value} new digital tools or software",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "tools"
+				}
+			},
+			{
+				"description": "Share knowledge by teaching {value} others",
+				"quantify": {
+					"min": 1,
+					"max": 5,
+					"step": 1,
+					"unit": "people"
+				}
+			}
+		],
+		"criteria": [
+			{
+				"description": "Demonstrate proficiency in {value} digital skills or applications",
+				"quantify": {
+					"min": 1,
+					"max": 10,
+					"step": 1,
+					"unit": "skills"
+				}
+			},
+			{
+				"description": "Receive positive feedback from {value} learners or peers",
+				"quantify": {
+					"min": 1,
+					"max": 20,
+					"step": 1,
+					"unit": "feedbacks"
+				}
+			}
+		]
+	}
+]
