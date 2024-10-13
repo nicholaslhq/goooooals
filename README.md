@@ -4,6 +4,20 @@
 
 Goooooals is a web application designed to help individuals set, refine, and achieve their personal and professional goals. In today's fast-paced world, many struggle with goal-setting, leading to feelings of aimlessness. Goooooals provides structured tools for discovering direction and motivation.
 
+## 🌐 Live Demo
+
+Experience Goooooals in action! Visit the live demo at [here](https://goooooals.vercel.app)
+
+## 🖼️ Screenshots
+
+Below are some screenshots of the Goooooals in action:
+
+![image](https://github.com/user-attachments/assets/5c58a95e-0795-4c8e-bed1-9e6587a4a262)
+
+![image](https://github.com/user-attachments/assets/0e503c75-c1b4-4bf5-b907-5afab9aaed54)
+
+![image](https://github.com/user-attachments/assets/61c00c75-949b-480a-896d-1ef3be97f9fe)
+
 ## 🌟 Features
 
 -   **Goal Generation Mode**:
