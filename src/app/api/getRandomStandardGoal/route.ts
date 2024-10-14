@@ -32,8 +32,12 @@ export async function GET() {
 		// Pick a random goal
 		const randomGoal = getRandomGoal(goals);
 
-		// Return the random goal
-		return NextResponse.json(randomGoal);
+		// Create a response and set headers
+		const response = NextResponse.json(randomGoal);
+		response.headers.set('X-Content-Type-Options', 'nosniff');
+
+		// Return the random goal with the added header
+		return response;
 	} catch (error) {
 		console.error("Error fetching goals:", error);
 		return NextResponse.json(
