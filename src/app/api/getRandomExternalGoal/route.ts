@@ -10,7 +10,7 @@ export async function GET() {
 	try {
 		// Adding a cache-busting parameter to the external API URL
 		const url = `${API_URL}?timestamp=${Date.now()}`;
-		const response = await fetch(url);
+		const response = await fetch(url, { cache: 'no-store' });
 
 		// Check if the response is successful
 		if (!response.ok) {

@@ -13,12 +13,14 @@ const getRandomGoal = (goals: StandardGoal[]): StandardGoal => {
 	return goals[randomIndex];
 };
 
+export const dynamic = 'force-dynamic';
+
 // Handler function for the API route
 export async function GET() {
 	try {
 		// Read and parse the JSON file
 		const filePath = getGoalsFilePath();
-		const data = fs.readFileSync(filePath, "utf-8");
+		const data = await fs.readFileSync(filePath, "utf-8");
 		const goals: StandardGoal[] = JSON.parse(data);
 
 		// Check if there are goals available
@@ -34,6 +36,7 @@ export async function GET() {
 
 		// Create a response and set headers
 		const response = NextResponse.json(randomGoal);
+        response.headers.set('Cache-Control', 'no-store');
 		response.headers.set('X-Content-Type-Options', 'nosniff');
 
 		// Return the random goal with the added header
