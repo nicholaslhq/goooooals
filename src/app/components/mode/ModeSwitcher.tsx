@@ -10,7 +10,7 @@ interface TabItem {
 	content: JSX.Element;
 }
 
-const ModeSelector: React.FC = () => {
+const ModeSwitcher: React.FC = () => {
 	// Initialize state with a default value
 	const [selectedTab, setSelectedTab] = useState<string>("standard");
 	const [isMounted, setIsMounted] = useState<boolean>(false);
@@ -67,7 +67,7 @@ const ModeSelector: React.FC = () => {
 					}}
 					className="mb-4"
 				>
-					{(item) => (
+					{tabs.map((item) => (
 						<Tab
 							key={item.id}
 							title={item.label}
@@ -75,11 +75,11 @@ const ModeSelector: React.FC = () => {
 						>
 							<div className="max-w-5xl">{item.content}</div>
 						</Tab>
-					)}
+					))}
 				</Tabs>
 			</div>
 		</div>
 	);
 };
 
-export default ModeSelector;
+export default ModeSwitcher;
